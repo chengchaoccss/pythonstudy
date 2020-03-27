@@ -31,7 +31,7 @@ class Baidu_pic(object):
                     self.name += 1
                     self.driver.find_element_by_xpath("//span[@class='img-next']").click()
                     time.sleep(2)
-                if self.name == 1000:
+                if self.name == 50:
                     break
             except:
                 continue
