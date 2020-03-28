@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0bcca20-c8bd-4bb0-a784-afa0402175f0" name="Default Changelist" comment="增加了多进程、多线程、正常三种模式的速度。">
-      <change afterPath="$PROJECT_DIR$/fuction.py" afterDir="false" />
+    <list default="true" id="b0bcca20-c8bd-4bb0-a784-afa0402175f0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuction.py" beforeDir="false" afterPath="$PROJECT_DIR$/fuction.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +55,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="jdspider" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="google_HDImage_crawler" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonstudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -67,7 +67,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Thinkpad\Desktop\pythonstudy\jdspider.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/google_HDImage_crawler.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -142,10 +142,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.fuction" />
+        <item itemvalue="Python.google_HDImage_crawler" />
         <item itemvalue="Python.picsave" />
         <item itemvalue="Python.multiprocess" />
         <item itemvalue="Python.picselenium" />
-        <item itemvalue="Python.jdspider" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585294752149</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="增加了电子书爬虫，利用request、lxml、xpath实现的。">
+      <created>1585390420053</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1585390420054</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -209,7 +216,8 @@
     <MESSAGE value="jdspider" />
     <MESSAGE value="selenium实现百度图片爬取" />
     <MESSAGE value="增加了多进程、多线程、正常三种模式的速度。" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加了多进程、多线程、正常三种模式的速度。" />
+    <MESSAGE value="增加了电子书爬虫，利用request、lxml、xpath实现的。" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加了电子书爬虫，利用request、lxml、xpath实现的。" />
   </component>
   <component name="WindowStateProjectService">
     <state x="310" y="116" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585042800141">
@@ -220,46 +228,46 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="585" y="207" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1707.920@0.0.1707.920" timestamp="1585387778398" />
-    <state x="495" y="53" key="CommitChangelistDialog2" timestamp="1585297686599">
+    <state x="495" y="53" key="CommitChangelistDialog2" timestamp="1585390417721">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="495" y="53" key="CommitChangelistDialog2/0.0.1707.920@0.0.1707.920" timestamp="1585297686599" />
+    <state x="495" y="53" key="CommitChangelistDialog2/0.0.1707.920@0.0.1707.920" timestamp="1585390417721" />
     <state x="94" y="94" width="1519" height="732" key="DiffContextDialog" timestamp="1585106619102">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="94" y="94" width="1519" height="732" key="DiffContextDialog/0.0.1707.920@0.0.1707.920" timestamp="1585106619102" />
-    <state width="1686" height="277" key="GridCell.Tab.0.bottom" timestamp="1585389307553">
+    <state width="1686" height="277" key="GridCell.Tab.0.bottom" timestamp="1585410985080">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1686" height="277" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1585389307553" />
-    <state width="1686" height="277" key="GridCell.Tab.0.center" timestamp="1585389307553">
+    <state width="1686" height="277" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1585410985080" />
+    <state width="1686" height="277" key="GridCell.Tab.0.center" timestamp="1585410985080">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1686" height="277" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1585389307553" />
-    <state width="1686" height="277" key="GridCell.Tab.0.left" timestamp="1585389307553">
+    <state width="1686" height="277" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1585410985080" />
+    <state width="1686" height="277" key="GridCell.Tab.0.left" timestamp="1585410985080">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1686" height="277" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1585389307553" />
-    <state width="1686" height="277" key="GridCell.Tab.0.right" timestamp="1585389307553">
+    <state width="1686" height="277" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1585410985080" />
+    <state width="1686" height="277" key="GridCell.Tab.0.right" timestamp="1585410985080">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1686" height="277" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1585389307553" />
-    <state width="1686" height="318" key="GridCell.Tab.1.bottom" timestamp="1585387053718">
+    <state width="1686" height="277" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1585410985080" />
+    <state width="1686" height="318" key="GridCell.Tab.1.bottom" timestamp="1585409888929">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1686" height="318" key="GridCell.Tab.1.bottom/0.0.1707.920@0.0.1707.920" timestamp="1585387053718" />
-    <state width="1686" height="318" key="GridCell.Tab.1.center" timestamp="1585387053717">
+    <state width="1686" height="318" key="GridCell.Tab.1.bottom/0.0.1707.920@0.0.1707.920" timestamp="1585409888929" />
+    <state width="1686" height="318" key="GridCell.Tab.1.center" timestamp="1585409888929">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1686" height="318" key="GridCell.Tab.1.center/0.0.1707.920@0.0.1707.920" timestamp="1585387053717" />
-    <state width="1686" height="318" key="GridCell.Tab.1.left" timestamp="1585387053717">
+    <state width="1686" height="318" key="GridCell.Tab.1.center/0.0.1707.920@0.0.1707.920" timestamp="1585409888929" />
+    <state width="1686" height="318" key="GridCell.Tab.1.left" timestamp="1585409888929">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1686" height="318" key="GridCell.Tab.1.left/0.0.1707.920@0.0.1707.920" timestamp="1585387053717" />
-    <state width="1686" height="318" key="GridCell.Tab.1.right" timestamp="1585387053718">
+    <state width="1686" height="318" key="GridCell.Tab.1.left/0.0.1707.920@0.0.1707.920" timestamp="1585409888929" />
+    <state width="1686" height="318" key="GridCell.Tab.1.right" timestamp="1585409888929">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1686" height="318" key="GridCell.Tab.1.right/0.0.1707.920@0.0.1707.920" timestamp="1585387053718" />
+    <state width="1686" height="318" key="GridCell.Tab.1.right/0.0.1707.920@0.0.1707.920" timestamp="1585409888929" />
     <state x="356" y="103" key="SettingsEditor" timestamp="1585043481817">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
