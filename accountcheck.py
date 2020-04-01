@@ -8,36 +8,33 @@ def readcustom(filename):# 该函数来读取客户文件，提取每条金额�
     maxrow = sheet.max_row
     for row in range(2,maxrow+1):
         money = sheet[f'H{row}'].value
-        # invoice = sheet[f'D{row}'].value.split('/')
-        equalexist(row,sheet[f'D{row}'].value,money)
+        equalexist(row,sheet[f'D{row}'].value,money)# 将每条杂乱的发票信息提取出来，送入equalexist函数中进行格式解析
 
 def equalexist(row,value,money): #该函数为解析发票内容
     if '=' in value:
-        inv = value.split('=')[-1].strip('\"').split(',')
+        inv = value.split('=')[-1].strip('\"').split(',')  #先按等号分割字符串取等号后面的发票信息，再去除首尾的双引号，最后用逗号分隔，就得到了每一个发票信息了。
         list= []
         newlist=[]
         for i in inv:
-            vo = i.split('-')[0]
+            vo = i.split('-')[0]   #有的发票号除了发票号还用-跟了很多其它数字，这里用-分割，只取发票号。
             list.append(vo)
-            newlist.append(vo)
-            # print(vo)
+            newlist.append(vo)      #list列表是只存储发票号信息，而newlist列表先存发票信息，再存这一行对应的金额。
         res.append(list)
         newlist.append(f'{money}')
-        newres.append(newlist)
-        # print('chang',len(res))
+        newres.append(newlist)      #把每条发票信息以及金额信息都有的列表添加到全局列表newres中。
+
         summ=0
         newmoney.append(money)
         cout =0
-        if row>=3:
+        if row>=3:                  #行数是从第二行开始的。这个if内部是比较前后两行是否相同。
             a= res[row-2]
             b = res[row-3]
             if operator.eq(a,b):
                 cout+=1
-                # print(f'{row}行与{row-1}行相同！')
                 global newrow
                 newrow = row-1
-                summ=newmoney[row-3]+newmoney[row-2]
-                newmoney[row-2]=summ
+                summ=newmoney[row-3]+newmoney[row-2]    #前后两行相同的话，就把金额加在一起。
+                newmoney[row-2]=summ    #
                 global newsum
                 newsum = summ
 
