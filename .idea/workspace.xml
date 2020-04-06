@@ -1,30 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0bcca20-c8bd-4bb0-a784-afa0402175f0" name="Default Changelist" comment="对账程序版本2">
-      <change afterPath="$PROJECT_DIR$/MSUself.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyqt5study/buddy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyqt5study/buddy.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyqt5study/buddyrun.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyqt5study/buddyset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyqt5study/centerForm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyqt5study/codewindow.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyqt5study/cordscreen.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyqt5study/echomode.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyqt5study/image/1.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyqt5study/quitapplication.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wanmei.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wanmei2.xlsx" afterDir="false" />
+    <list default="true" id="b0bcca20-c8bd-4bb0-a784-afa0402175f0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pyqt5study/MSU.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqt5study/MSUself.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqt5study/accountcheck.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqt5study/accountcheck.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqt5study/accountcheckrun.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqt5study/lineeditdemo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqt5study/sendslots.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqt5study/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accountcheckagain.py" beforeDir="false" afterPath="$PROJECT_DIR$/accountcheckagain.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baidupic/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/baidupic/10.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baidupic/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/baidupic/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baidupic/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/baidupic/5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baidupic/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/baidupic/7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baidupic/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/baidupic/8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baidupic/9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/baidupic/9.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyqt5study/firstwindow.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyqt5study/firstwindow.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyqt5study/firstwindow.ui" beforeDir="false" afterPath="$PROJECT_DIR$/pyqt5study/firstwindow.ui" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,8 +43,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
   </component>
-  <component name="RunManager" selected="Python.echomode">
-    <configuration name="buddy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.sendslots">
+    <configuration name="accountcheckrun" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonstudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -70,49 +56,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pyqt5study/buddy.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="buddyrun" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonstudy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyqt5study" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pyqt5study/buddyrun.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="buddyset" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonstudy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyqt5study" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pyqt5study/buddyset.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pyqt5study/accountcheckrun.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -142,7 +86,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="picselenium" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="lineeditdemo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonstudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -150,11 +94,53 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyqt5study" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/picselenium.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pyqt5study/lineeditdemo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sendslots" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonstudy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyqt5study" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pyqt5study/sendslots.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonstudy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyqt5study" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pyqt5study/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -165,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sendslots" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.accountcheckrun" />
+        <item itemvalue="Python.lineeditdemo" />
         <item itemvalue="Python.echomode" />
-        <item itemvalue="Python.buddyset" />
-        <item itemvalue="Python.buddyrun" />
-        <item itemvalue="Python.buddy" />
-        <item itemvalue="Python.picselenium" />
       </list>
     </recent_temporary>
   </component>
@@ -247,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585569805763</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="添加了pyqt5的学习文件夹！">
+      <created>1586006090006</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1586006090006</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -274,7 +267,8 @@
     <MESSAGE value="增加了mp3crawler" />
     <MESSAGE value="对账程序版本1" />
     <MESSAGE value="对账程序版本2" />
-    <option name="LAST_COMMIT_MESSAGE" value="对账程序版本2" />
+    <MESSAGE value="添加了pyqt5的学习文件夹！" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加了pyqt5的学习文件夹！" />
   </component>
   <component name="WindowStateProjectService">
     <state x="447" y="119" key="#Inspections" timestamp="1586006005988">
@@ -293,10 +287,10 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="880" y="216" width="467" height="485" key="#com.intellij.tools.ToolEditorDialog/0.0.1707.920@0.0.1707.920" timestamp="1585715750651" />
-    <state x="495" y="53" key="CommitChangelistDialog2" timestamp="1585716383545">
+    <state x="495" y="53" key="CommitChangelistDialog2" timestamp="1586006088366">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="495" y="53" key="CommitChangelistDialog2/0.0.1707.920@0.0.1707.920" timestamp="1585716383545" />
+    <state x="495" y="53" key="CommitChangelistDialog2/0.0.1707.920@0.0.1707.920" timestamp="1586006088366" />
     <state x="94" y="94" width="1519" height="732" key="DiffContextDialog" timestamp="1585106619102">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
@@ -305,38 +299,38 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="895" y="215" key="FileChooserDialogImpl/0.0.1707.920@0.0.1707.920" timestamp="1585715405403" />
-    <state width="1686" height="184" key="GridCell.Tab.0.bottom" timestamp="1586006020835">
+    <state width="1686" height="184" key="GridCell.Tab.0.bottom" timestamp="1586165747990">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1686" height="184" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1586006020835" />
-    <state width="1686" height="184" key="GridCell.Tab.0.center" timestamp="1586006020835">
+    <state width="1686" height="184" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1586165747990" />
+    <state width="1686" height="184" key="GridCell.Tab.0.center" timestamp="1586165747990">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1686" height="184" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1586006020835" />
-    <state width="1686" height="184" key="GridCell.Tab.0.left" timestamp="1586006020835">
+    <state width="1686" height="184" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1586165747990" />
+    <state width="1686" height="184" key="GridCell.Tab.0.left" timestamp="1586165747990">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1686" height="184" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1586006020835" />
-    <state width="1686" height="184" key="GridCell.Tab.0.right" timestamp="1586006020835">
+    <state width="1686" height="184" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1586165747990" />
+    <state width="1686" height="184" key="GridCell.Tab.0.right" timestamp="1586165747990">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1686" height="184" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1586006020835" />
-    <state width="1686" height="318" key="GridCell.Tab.1.bottom" timestamp="1585992009174">
+    <state width="1686" height="184" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1586165747990" />
+    <state width="1686" height="318" key="GridCell.Tab.1.bottom" timestamp="1586009412365">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1686" height="318" key="GridCell.Tab.1.bottom/0.0.1707.920@0.0.1707.920" timestamp="1585992009174" />
-    <state width="1686" height="318" key="GridCell.Tab.1.center" timestamp="1585992009174">
+    <state width="1686" height="318" key="GridCell.Tab.1.bottom/0.0.1707.920@0.0.1707.920" timestamp="1586009412365" />
+    <state width="1686" height="318" key="GridCell.Tab.1.center" timestamp="1586009412365">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1686" height="318" key="GridCell.Tab.1.center/0.0.1707.920@0.0.1707.920" timestamp="1585992009174" />
-    <state width="1686" height="318" key="GridCell.Tab.1.left" timestamp="1585992009174">
+    <state width="1686" height="318" key="GridCell.Tab.1.center/0.0.1707.920@0.0.1707.920" timestamp="1586009412365" />
+    <state width="1686" height="318" key="GridCell.Tab.1.left" timestamp="1586009412365">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1686" height="318" key="GridCell.Tab.1.left/0.0.1707.920@0.0.1707.920" timestamp="1585992009174" />
-    <state width="1686" height="318" key="GridCell.Tab.1.right" timestamp="1585992009174">
+    <state width="1686" height="318" key="GridCell.Tab.1.left/0.0.1707.920@0.0.1707.920" timestamp="1586009412365" />
+    <state width="1686" height="318" key="GridCell.Tab.1.right" timestamp="1586009412365">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1686" height="318" key="GridCell.Tab.1.right/0.0.1707.920@0.0.1707.920" timestamp="1585992009174" />
+    <state width="1686" height="318" key="GridCell.Tab.1.right/0.0.1707.920@0.0.1707.920" timestamp="1586009412365" />
     <state x="591" y="184" key="SettingsEditor" timestamp="1585715752101">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
